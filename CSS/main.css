@@ -1,22 +1,40 @@
-main .row {
+header {
 	margin-bottom: 20px;
 }
+p {
+	font-size: 14px;
+	margin: 0 auto;
+	padding: 5px;
+}
 
-div .title {
+section	{
+	margin: 10px;
+}
+
+.title {
+	background-color: gold;
+	width: 100%;
+	/*padding-left: 0;
+	padding-right: 0;*/
+}
+/*.row>div {
 	padding-left: 0;
 	padding-right: 0;
-}
-.gold {
+}*/
+/*.gold {
 	background-color: gold;
-}
+	padding: 10px;
+}*/
 img {
 	height: 100%;
 	width: 100%;
 }
-section	{
-	padding: 10px;
-}
+
 .char {
-	height: 200px;
+	font-weight: bold;
+}
+
+.box {
 	border: 1px solid grey;
+	margin-bottom: 20px;
 }
